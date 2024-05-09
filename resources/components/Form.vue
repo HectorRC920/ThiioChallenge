@@ -5,7 +5,7 @@
                 v-if="showAlert"
                 color="warning"
                 title="Info"
-                text="Email alredy exists"
+                text="Email already exists"
             ></v-alert>
           <v-text-field
             v-model="name.value.value"
