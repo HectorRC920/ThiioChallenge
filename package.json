@@ -13,6 +13,7 @@
     },
     "dependencies": {
         "@vitejs/plugin-vue": "^5.0.4",
+        "vee-validate": "^4.12.7",
         "vuetify": "^3.6.4"
     }
 }

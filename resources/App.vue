@@ -1,8 +1,13 @@
 <template>
     <h1>Hi there</h1>
-    <v-btn color="primary">Button</v-btn>
+    <FormComponent/>
   </template>
 
-  <script>
-
+  <script >
+    import FormComponent from './components/Form.vue'
+    export default {
+    components: {
+    FormComponent
+    }
+    }
   </script>
