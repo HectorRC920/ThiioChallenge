@@ -1,5 +1,4 @@
-<template>
-    <h1>Hi there</h1>
+  <template>
     <FormComponent/>
   </template>
 
@@ -11,3 +10,10 @@
     }
     }
   </script>
+  <style>
+    #app,html,body {
+      height:100%;
+      min-height:100%;
+      max-height:100%;
+    }
+  </style>
